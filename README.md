@@ -1,8 +1,81 @@
-# React + Vite
+# FinBiz - Modern Financial Management Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web application built with React and TypeScript, designed to provide comprehensive financial management solutions for small and medium-sized businesses.
 
-Currently, two official plugins are available:
+<!-- ![FinBiz Landing Page](https://i.imgur.com/0R3zEiU.png) -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Interactive Financial Dashboard
+- Profit Tracking and Analysis
+- Financial Planning Tools
+- Dark/Light Theme Support
+- Fully Responsive Design
+- Email Subscription System
+- Customer Testimonials
+- Interactive Charts with Chart.js
+
+## Tech Stack
+
+- **Frontend Framework:** React 18
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Charts:** Chart.js with react-chartjs-2
+- **Icons:** Heroicons
+- **Build Tool:** Vite
+- **Package Manager:** pnpm
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (Latest LTS version recommended)
+- pnpm package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone
+cd finbiz
+```
+
+2. Install dependencies:
+```bash
+pnpm install
+```
+
+3. Start the development server:
+```bash
+pnpm dev
+```
+
+4. Build for production:
+```bash
+pnpm build
+```
+
+## Project Structure
+
+```
+finbiz/
+├── src/
+│   ├── Components/
+│   │   ├── C_Hero/
+│   │   ├── C_Fplan/
+│   │   ├── Profit/
+│   │   ├── CardsGroup/
+│   │   └── C_Testimonials/
+│   ├── assets/
+│   └── ...
+├── public/
+├── tailwind.config.js
+└── package.json
+```
+
+## Development
+
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production
+- `pnpm preview` - Preview production build
+- `pnpm lint` - Run ESLint
